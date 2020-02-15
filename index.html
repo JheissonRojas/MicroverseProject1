@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <div>
+    <h1 id="title">Survey Form </h1>
+    <p id="description">
+      This is a short survey form
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label"> Enter name:</label>
+      <input type="text" id="name" placeholder="Enter Name" required> <br />
+      <label for="email" id="email-label"> Email:</label>
+      <input type="email" id="email" placeholder="Enter Email Address" required><br />
+      <label for="number" id="number-label"> Number:</label>
+      <input type="number" id="number" placeholder="Enter Number" min=0 max=100><br />
+      <select id="dropdown">
+        <option>Option One</option>
+        <option>Option Two</option>
+        <option>Option Thre</option>
+      </select> <br />
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br />
+      <input type="radio" id="single" name="status" value="single">
+      <label for="single">Single</label>
+      <input type="radio" id="married" name="status" value="married">
+      <label for="married">Married</label><br />
+      <input type="checkbox" name="football" value="football">
+      <label for="football">Football</label>
+      <input type="checkbox" name="basketball" value="basketball">
+      <label for="basketball">Basketball</label><br />
+      <label>Comment</label>
+      <textarea></textarea> <br />
+      <button id="submit">Subit</button>
+    </form>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
